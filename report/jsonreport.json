@@ -1,0 +1,188 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5688122,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "This your scenario outline",
+        "description": "",
+        "id": "simple-login-feature;this-your-scenario-outline;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 680796,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17695764698,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "proceed to login page",
+            "match": {
+              "location": "OrangeDataTableUsingExamplesSteps.proceed_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 752030129,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters the \"Admin\" and password \"admin1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"admin1234\"",
+                  "offset": 37
+                }
+              ],
+              "location": "OrangeDataTableUsingExamplesSteps.user_enters_the_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2156076130,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "clicked button",
+            "match": {
+              "location": "OrangeDataTableUsingExamplesSteps.clicked_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Hooks"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 439040,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "This your scenario outline",
+        "description": "",
+        "id": "simple-login-feature;this-your-scenario-outline;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 522285,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10658750848,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "proceed to login page",
+            "match": {
+              "location": "OrangeDataTableUsingExamplesSteps.proceed_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1041898588,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters the \"Admin\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 37
+                }
+              ],
+              "location": "OrangeDataTableUsingExamplesSteps.user_enters_the_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6177329616,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "clicked button",
+            "match": {
+              "location": "OrangeDataTableUsingExamplesSteps.clicked_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Hooks"
+          }
+        ]
+      }
+    ],
+    "name": "Simple Login feature",
+    "description": "",
+    "id": "simple-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Britto/eclipse-workspace/CucumberLearnOnline/src/test/resources/OrangeDataTableUsingExamples.feature",
+    "tags": [
+      {
+        "name": "@Hooks",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
